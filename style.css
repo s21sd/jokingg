@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url(https://media.istockphoto.com/id/1150924778/photo/squawking-chicken-or-squeaky-toy-are-shouting-and-copy-space-pastel-background.jpg?b=1&s=170667a&w=0&k=20&c=u2Lge791dkqQSldpAZiTVNPIkw4BZAo5oghMV8ZA0r8=) no-repeat center center;
+    height: 100vh;
+    padding: 0, 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fab22e;
+
+}
+
+.main-container {
+    width: 80vmin;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    border-radius: 23px;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1); */
+    position: absolute;
+    height: 130px;
+    padding: 20px 40px;
+    Opacity: 1;
+    Transition: Opacity 1.5s;
+
+}
+
+.btn {
+    Display: Block;
+    Background-Color: #fab22e;
+    Border: None;
+    Padding: 5px;
+    Font-Size: 18px;
+    Color: #171721;
+    Font-Weight: 600;
+    Padding: 12px 25px;
+    Margin: 0 Auto;
+    Border-Radius: 5px;
+    Cursor: Pointer;
+    Outline: None;
+}
+
+@media screen and (max-width:600px) {
+h1{
+    font-size: medium;
+}    
+
+}

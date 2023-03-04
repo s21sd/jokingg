@@ -28,11 +28,13 @@ const arr = ["What do the movies Titanic and The Sixth Sense have in common ? Ic
     "Will glass coffins be a success ? Remains to be seen"];
 
 
-var index=Math.round(Math.random()*10);
 
 function getJoke(e) {
+        
+var index=Math.round(Math.random()*10);
     jokechager.innerHTML=arr[index];
-    e.preventDefault();
+
+//     e.preventDefault();
   
 }
 button.addEventListener("click", getJoke);

@@ -31,7 +31,7 @@ const arr = ["What do the movies Titanic and The Sixth Sense have in common ? Ic
 
 function getJoke(e) {
         
-var index=Math.round(Math.random()*10);
+var index=Math.round(Math.random()*arr.length);
     jokechager.innerHTML=arr[index];
 
 //     e.preventDefault();

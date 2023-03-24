@@ -1,4 +1,3 @@
-
 const jokespace = document.getElementById("joke");
 const button = document.getElementById("btn");
 

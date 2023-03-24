@@ -17,6 +17,10 @@ body {
     background-color: #fab22e;
 
 }
+.jokeclass
+{
+    font-size: 2rem;
+}
 
 .main-container {
     width: 80vmin;
@@ -31,6 +35,11 @@ body {
     Transition: Opacity 1.5s;
 
 }
+ h1{
+    position: absolute;
+    top: 250px;
+    margin: 0px;
+}
 
 .btn {
     Display: Block;
@@ -41,15 +50,17 @@ body {
     Color: #171721;
     Font-Weight: 600;
     Padding: 12px 25px;
-    Margin: 0 Auto;
+    Margin: 19px Auto;
     Border-Radius: 5px;
     Cursor: Pointer;
     Outline: None;
 }
 
 @media screen and (max-width:600px) {
-h1{
-    font-size: medium;
-}    
+    .jokeclass
+    {
+        font-size: 1rem;
+    }
+   
 
 }
